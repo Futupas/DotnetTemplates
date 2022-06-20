@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Futupas",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Futupas.Dotnet6.ConsoleTemplate",
+    "sourceName": "FutupasConsoleApp",
+    "name": ".NET 6 Console app with DI",
+    "shortName": "dotnet6consoledi",
+    "sources": [
+        {
+            "source":"./",
+            "target":"./",
+            "include": [
+                "**/*"
+            ],
+            "exclude":[
+                "**/.vs/**",
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                "**/.template.config/**",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json"
+            ]
+        }
+    ]
+}
