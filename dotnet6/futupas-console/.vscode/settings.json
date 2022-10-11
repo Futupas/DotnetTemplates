@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "appsettings.json": "jsonc",
+        "appsettings.*.json": "jsonc",
+    },
+    // "omnisharp.useModernNet": false,
+    // "omnisharp.autoStart": true,
+    // "omnisharp.dotnetPath": "~/.dotnet/dotnet",
+    // "omnisharp.sdkVersion": "6.0.401",
+    // "omnisharp.useGlobalMono": "never",
+}
